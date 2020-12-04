@@ -1,6 +1,11 @@
+import axios from 'axios'
+
 // Imports at the top of the file!
+
+const result = axios.get('https://lambda-times-api.herokuapp.com/friends')
 // We never nest imports inside blocks of code!
 
+console.log(result) // data is not here to use, because be dont have a promise statement 
 
 // 👉 TASK 1- Test out the following endpoints:
 
